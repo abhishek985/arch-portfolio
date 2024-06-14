@@ -1,0 +1,44 @@
+/* ProjectTable.css */
+.project-table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .project-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .project-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .project-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  @media (max-width: 768px) {
+    .project-table th, .project-table td {
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+  
+    .project-table th {
+      white-space: nowrap;
+    }
+  }
+  
