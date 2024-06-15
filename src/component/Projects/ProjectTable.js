@@ -12,9 +12,7 @@ const ProjectTable = () => {
             <th>S.No.</th>
             <th>Particulars of Project</th>
             <th>Client</th>
-            <th>Project Cost(Lacs)</th>
             <th>Status of Project</th>
-            <th>Details of Work order</th>
           </tr>
         </thead>
         <tbody>
@@ -23,9 +21,7 @@ const ProjectTable = () => {
               <td>{item.id}</td>
               <td>{item.particulars}</td>
               <td>{item.client}</td>
-              <td>{item.cost}</td>
               <td>{item.status}</td>
-              <td>{item.workOrder}</td>
             </tr>
           ))}
         </tbody>
