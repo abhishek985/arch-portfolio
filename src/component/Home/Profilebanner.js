@@ -89,10 +89,10 @@ const ProfileBanner = () => {
             alt="Profile Photo"
             sx={{ width: { xs: '100%', sm: '75%', md: '200px' }, height: 'auto', margin: 'auto', marginTop: '20px' }}
           />
-          <Typography variant="h5" sx={{ marginTop: '20px' }}>
+          <Typography variant="h5" sx={{ marginTop: '20px', textAlign: 'center' }}>
             Rakesh Jadia
           </Typography>
-          <Typography variant="body1" sx={{ marginTop: '10px', padding: { xs: '0 10px', md: '0' } }}>
+          <Typography variant="body1" sx={{ marginTop: '10px', padding: { xs: '0 10px', md: '0' }, textAlign: 'justify' }}>
             We, Jadia Associates are a well established firm of Architects/Civil/ 
             Structural/ Industrial consultants. We have under taken projects in various fields like Group Housing projects, 
             Temple complex, Memorials & Towers, Auditorium, Industrial buildings, Offices, Educational Institutions,
