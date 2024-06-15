@@ -65,7 +65,7 @@ const Header = () => {
           <img 
             src="/carousel/JASS.JPG" 
             alt="Logo" 
-            style={{ marginRight: 20, height: '54px', cursor: 'pointer' }} // Adjust the size as needed
+            style={{ marginRight: 20, height: '75px', cursor: 'pointer' }} // Adjust the size as needed
             onClick={() => navigate('/')}
           />
           <Typography 
