@@ -3,6 +3,8 @@ import { Box, Grid, Typography, Card, CardContent } from '@mui/material';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
+import AssessmentIcon from '@mui/icons-material/Assessment';
+
 
 const services = [
   {
@@ -21,6 +23,12 @@ const services = [
     title: 'Vastu Consultation',
     description: 'Harmonize your living space with the ancient principles of Vastu.',
     icon: <EmojiObjectsIcon fontSize="large" />,
+    color: '#388e3c',
+  },
+  {
+    title: 'Registered Valuer',
+    description: 'Registered Valuer for immovable properties by Income Tax deptt., Govt of India',
+    icon: <AssessmentIcon fontSize="large" />,
     color: '#388e3c',
   },
 ];
