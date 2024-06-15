@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { Box, Typography, Grid, TextField, Button, Link } from '@mui/material';
+import {React} from 'react';
+import { Box, Typography, Grid, Link } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import PhoneIcon from '@mui/icons-material/Phone';
-import SendIcon from '@mui/icons-material/Send';
 import { styled } from '@mui/material/styles';
 
 const ContactIconBox = styled(Box)(({ theme }) => ({
@@ -20,18 +19,18 @@ const ContactIconBox = styled(Box)(({ theme }) => ({
 }));
 
 const ContactInformationComponent = () => {
-  const [query, setQuery] = useState('');
+  //const [query, setQuery] = useState('');
 
-  const handleQueryChange = (event) => {
-    setQuery(event.target.value);
-  };
+  // const handleQueryChange = (event) => {
+  //   setQuery(event.target.value);
+  // };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Implement the submit logic, possibly sending the query to your server or via email
-    console.log('Query submitted:', query);
-    setQuery(''); // Reset query input after submission
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   // Implement the submit logic, possibly sending the query to your server or via email
+  //   console.log('Query submitted:', query);
+  //   setQuery(''); // Reset query input after submission
+  // };
 
   return (
     <Box sx={{ padding: '4rem 1rem', backgroundColor: '#e0f7fa', textAlign: 'center' }}>
@@ -57,7 +56,7 @@ const ContactInformationComponent = () => {
           </Grid>
         ))}
       </Grid>
-      <Box component="form" onSubmit={handleSubmit} sx={{ mt: 4, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      {/* <Box component="form" onSubmit={handleSubmit} sx={{ mt: 4, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
         <TextField
           label="Your Query"
           multiline
@@ -70,7 +69,7 @@ const ContactInformationComponent = () => {
         <Button type="submit" variant="contained" startIcon={<SendIcon />} sx={{ mt: 2, bgcolor: '#26a69a', '&:hover': { bgcolor: '#00796b' } }}>
           Send Query
         </Button>
-      </Box>
+      </Box> */}
     </Box>
   );
 };
