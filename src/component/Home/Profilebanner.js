@@ -6,12 +6,23 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 const images = [
   '/carousel/Auditorium.jpg',
   '/carousel/Bhikshu Smarak 1.jpg',
+  '/carousel/Bhikshu Smarak 2.jpg',
   '/carousel/UIT Prem Ngr 1.jpg',
   '/carousel/Ent Gate Kota.JPG',
+  '/carousel/Front View Pawan Dham.JPG',
   '/carousel/Godavari Dham Temple.jpg',
+  '/carousel/Godavri Dham Gate.jpg',
+  '/carousel/Gyan Stambh 1.jpg',
+  '/carousel/Gyan Stambh Stairs & Deck.JPG',
+  '/carousel/IMG_20180908_170936.jpg',
   '/carousel/Saree Mt.jpg',
   '/carousel/Tirupati Bala Ji 1 Kota.jpg',
-  '/carousel/New Sarrafa Mkt.jpg'
+  '/carousel/New Sarrafa Mkt.jpg',
+  '/carousel/Bhikshu Smarak 2.jpg',
+  '/carousel/Front View Pawan Dham.jpg',
+  '/carousel/UIT Ent Gate Kota.jpg',
+  '/carousel/UIT Kota doria Mkt.jpg',
+  '/carousel/UIT Tipta Gate.jpg',
   // Add more image paths here
 ];
 

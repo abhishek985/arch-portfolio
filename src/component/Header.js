@@ -89,8 +89,8 @@ const Header = () => {
                   <ListItem component={ButtonBase} onClick={() => handleNavigate('/projects')}>
                     <ListItemText primary="Projects" />
                   </ListItem>
-                  <ListItem component={ButtonBase} onClick={() => handleNavigate('/services')}>
-                    <ListItemText primary="Services" />
+                  <ListItem component={ButtonBase} onClick={() => handleNavigate('/project-showcase')}>
+                    <ListItemText primary="Project Showcase" />
                   </ListItem>
                   <ListItem component={ButtonBase} onClick={() => handleNavigate('/about')}>
                     <ListItemText primary="About" />
@@ -105,7 +105,7 @@ const Header = () => {
             <>
               <Button color="secondary" onClick={() => navigate('/')}>Home</Button>
               <Button color="secondary" onClick={() => navigate('/projects')}>Projects</Button>
-              <Button color="secondary" onClick={() => navigate('/services')}>Services</Button>
+              <Button color="secondary" onClick={() => navigate('/project-showcase')}>Projects Showcase</Button>
               {/* <Button color="secondary" onClick={() => navigate('/about')}>About</Button> */}
               <Button color="secondary" onClick={() => navigate('/contact')}>Contact Us</Button>
             </>
