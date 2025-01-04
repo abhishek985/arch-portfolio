@@ -13,15 +13,17 @@ const ProjectTable = () => {
             <th>Particulars of Project</th>
             <th>Client</th>
             <th>Status of Project</th>
+            <th>Details of Work Order</th>
           </tr>
         </thead>
         <tbody>
           {projectData.map((item) => (
             <tr key={item.id}>
-              <td>{item.id}</td>
+              <td>{item.id + 1}</td>
               <td>{item.particulars}</td>
               <td>{item.client}</td>
               <td>{item.status}</td>
+              <td>{item.workOrder}</td>
             </tr>
           ))}
         </tbody>

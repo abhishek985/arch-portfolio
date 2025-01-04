@@ -1,5 +1,20 @@
 // projectData.js
+
+/*
+Project: New building of DAV Kota
+Client: DAV CMC New Delhi 
+Status: Under execution 
+W/o: DAV_ Kota/ 909 Dt:28-02-24
+*/
 export const projectData = [
+    {
+        id: 0,
+        particulars: 'New building of DAV Kota',
+        client: 'DAV CMC New Delhi',
+        cost: 100.00,
+        status: 'Near Completion',
+        workOrder: 'DAV_ Kota/ 909 Dt:28-02-24'
+    },
     {
       id: 1,
       particulars: 'Str Consultancy work for extension of Paint shop under AXEN WRS Kota.',
@@ -159,5 +174,150 @@ export const projectData = [
         "cost": "100.00",
         "status": "Completed",
         "workOrder": "F -3/Acct-IV/11-12/ 2746-51 Dated: 18/07/12"
+    },
+    {
+    "id": 21,
+    "particulars": "Sardar Kotya Bheel Smarak at Rangbari Circle, Kota.",
+    "client": "U. I. T. Kota",
+    "cost": 60.00,
+    "status": "Inaugurated",
+    "workOrder": "F 3/Acc-III/ 12-13/ 63-70 Dated: 27/04/12"
+    },
+    {
+    "id": 22,
+    "particulars": "Design, Drg & Consultancy for Shrinath Puram Stadium, Sector-E, Kota.",
+    "client": "U. I. T. Kota",
+    "cost": 1469.00,
+    "status": "Inaugurated",
+    "workOrder": "F 3/Acc-I/ 11-12/ 11355-62 Dated: 28/03/12"
+    },
+    {
+    "id": 23,
+    "particulars": "Community Hall & Extension of Birla Shiksha Kendra at Chittorgarh.",
+    "client": "Birla Corporation Ltd., Chittorgarh",
+    "cost": 100.00,
+    "status": "Completed",
+    "workOrder": "BB/CS/ 1200006 Dated: 6/06/12"
+    },
+    {
+    "id": 24,
+    "particulars": "Prem Nagar (Part C & D), Affordable Housing 572 LIG & 864 EWS (G+3) Flats at Kota.",
+    "client": "Suwalka & Suwalka Properties & Builders Pvt. Ltd., Kota",
+    "cost": 9000.00,
+    "status": "Inaugurated",
+    "workOrder": "2011/Dec/17 Dated: 12/12/2011"
+    },
+    {
+    "id": 25,
+    "particulars": "Architectural & Engineering Project of U.I.T. Auditorium, Balaji Market, Kota.",
+    "client": "U. I. T. Kota",
+    "cost": 1200.00,
+    "status": "Inaugurated",
+    "workOrder": "F -3/Acct-I/11-12/ 7275-81 Dated: 14/10/11"
+    },
+    {
+    "id": 26,
+    "particulars": "Architectural Consultancy for Development work at Rampura Shamshan, Kota.",
+    "client": "U. I. T. Kota",
+    "cost": 100.00,
+    "status": "Inaugurated",
+    "workOrder": "F 3/Acc-II/ 10-11/ 240-45 Dated: 15/04/11"
+    },
+    {
+    "id": 27,
+    "particulars": "Sarovar Super Market & Parking near Sarovar Talkies, Kota.",
+    "client": "U. I. T. Kota",
+    "cost": 650.00,
+    "status": "Inaugurated",
+    "workOrder": "P 3/Acc-Proj/10-11/ 897-902 Dated: 19/11/10"
+    },
+    {
+    "id": 28,
+    "particulars": "Prem Nagar (Part A&B) Affordable Housing Project (Model no-1), 744 LIG & 994 EWS (G+3) Flats.",
+    "client": "U. I. T. Kota",
+    "cost": 5300.00,
+    "status": "Inaugurated",
+    "workOrder": "F 3/Acc-IV/09-10/389 Dated: 4/05/10"
+    },
+    {
+    "id": 29,
+    "particulars": "Structural Consultancy for Turbine Hall Str, Foundation, Cooling Tower RCC Str, Chimney Foundation at Sharda Solvent Limited, Kota.",
+    "client": "Sharda Solvent Limited, Kota",
+    "cost": 200.00,
+    "status": "Completed",
+    "workOrder": "SSL/K/Power Proj/ 09-10/ 003 Dated: 3/09/2009"
+    },
+    {
+    "id": 30,
+    "particulars": "Auditorium at ALLEN SAMARTH CP-14, Indra Vihar, Kota.",
+    "client": "ALLEN Career Institute, Kota",
+    "cost": 100.00,
+    "status": "Completed",
+    "workOrder": "Dt: 21 August 2008"
+    },
+    {
+    "id": 31,
+    "particulars": "Arch/Str Consultancy for Silo Foundation 10000MT, Day Silo 800MT etc. at Shivpuri (M.P.).",
+    "client": "Sharda Solvent Limited, Shivpuri (M.P.)",
+    "cost": 100.00,
+    "status": "Completed",
+    "workOrder": "SSL/SHIVPURI/2008-09/ 078 Dated: 30 July 2008"
+    },
+    {
+    "id": 32,
+    "particulars": "Arch/Str Consultancy for Silo Foundation for 10000 MT, RCC Water Tank 600 Kilo Ltr etc. at Mandideep, Bhopal (M.P.).",
+    "client": "BHASKAR EXXOILS LIMITED, Mandideep (M.P.)",
+    "cost": 150.00,
+    "status": "Completed",
+    "workOrder": "BEL/M'DEEP/REF/2007-08/ 144 Dated: 30 July 2008"
+    },
+    {
+    "id": 33,
+    "particulars": "Arch/Str Consultancy for various Foundations, Structures for Factory Infra-Str at Digod, Kota.",
+    "client": "Sharda Solvent Limited, Kota",
+    "cost": 400.00,
+    "status": "Completed",
+    "workOrder": "W.O. Dated: 20/05/2008"
+    },
+    {
+    "id": 34,
+    "particulars": "Architectural Consultancy for Pipaji Dham Temple, Gagron, Jhalawar.",
+    "client": "Resident Engineer Div.-I, R.S.R.D.C. Ltd., Jhalawar",
+    "cost": 98.00,
+    "status": "Inaugurated",
+    "workOrder": "RE/JHW-1/07-08/ 13 Dt: 19/01/2008"
+    },
+    {
+    "id": 35,
+    "particulars": "Architectural consultancy for Mini Secretariat Khanpur, Dist.: Jhalawar, Raj.",
+    "client": "Ex. Engineer P.W.D. Div.-I, Jhalawar",
+    "cost": 50.00,
+    "status": "Completed",
+    "workOrder": "3498 Dated: 4/03/2006"
+    },
+    {
+    "id": 36,
+    "particulars": "Sahkar-Bhawan at N.H.-12, Gindor, Jhalawar.",
+    "client": "Jhalawar Kendriya Sahkari Bank Ltd.",
+    "cost": 167.00,
+    "status": "Inaugurated",
+    "workOrder": "JKSB/F (Acc & F)/2005-06 Dt: 14/07/2005"
+    },
+    {
+    "id": 37,
+    "particulars": "Shri Tirupati Balaji Mandir at Mauji Baba Parisar, Kota.",
+    "client": "Seth Manakchand Sarraf Cheritable Trust, Kota",
+    "cost": 60.00,
+    "status": "Inaugurated",
+    "workOrder": "Certificate Dt: 25/12/2006"
+    },
+    {
+    "id": 38,
+    "particulars": "New Sarrafa Market at Chhota Talab Scheme, Kota.",
+    "client": "Shri Sarrafa Board, Kota",
+    "cost": 200.00,
+    "status": "Inaugurated",
+    "workOrder": "Vice President Shri Bheron Singh Ji Shekhawat Certificate Dt: 30/08/2002"
     }
-    ];
+    
+];
