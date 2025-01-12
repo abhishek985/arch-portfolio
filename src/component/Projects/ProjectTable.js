@@ -17,9 +17,9 @@ const ProjectTable = () => {
           </tr>
         </thead>
         <tbody>
-          {projectData.map((item) => (
+          {projectData.map((item, index) => (
             <tr key={item.id}>
-              <td>{item.id + 1}</td>
+              <td>{index + 1}</td>
               <td>{item.particulars}</td>
               <td>{item.client}</td>
               <td>{item.status}</td>
