@@ -3,7 +3,6 @@ import { Box, Grid, Card, CardContent, Typography, CardActionArea } from '@mui/m
 import { Link } from 'react-router-dom';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import TempleHinduTwoToneIcon from '@mui/icons-material/TempleHinduTwoTone';
-import SchoolIcon from '@mui/icons-material/School';
 import FactoryIcon from '@mui/icons-material/Factory';
 import Header from '../Header';
 
